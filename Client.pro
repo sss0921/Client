@@ -27,11 +27,13 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-        logindialog.cpp
+        logindialog.cpp \
+    threadfromqthread.cpp
 
 HEADERS += \
         mainwindow.h \
-        logindialog.h
+        logindialog.h \
+    threadfromqthread.h
 
 FORMS += \
         mainwindow.ui \
